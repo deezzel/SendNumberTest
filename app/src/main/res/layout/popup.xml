@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup_element"
+    android:background="@drawable/popup_bg">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:text="New number windows"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:id="@+id/value"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/send"
+        android:text="Send value"/>
+</LinearLayout>
